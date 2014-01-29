@@ -9,17 +9,17 @@
 root { 
     display: block;
 }
-.navbar-abc{
+.navbar-container{
     background: blue;
     border-radius: 10px 10px 0 0;
     margin-left: 0;
+    padding-top:0!important;
 }
 body {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #F5F5F5;
+    background-color: #EDEEF0;
 }
-
 .navbar {
     margin-bottom: 20px !important;
 }
@@ -36,19 +36,17 @@ label{
     border-top: none !important; 
 }
 label{
-    color:#A2A2A2;
+    color:#D2D2D2;
     display: inline-block;
     margin: 0 2% 0 0;
     vertical-align: top;
     width: 40%;
     font-weight: normal;
 }
-.white .white a{
-    color:#fffff;
-    padding-right: 50px;
+.left{
+    float:right !important;
+    padding-right: 32px !important;
 }
-
-
 
 li,ul {
     list-style: none outside none;
@@ -56,4 +54,14 @@ li,ul {
 }
 ul div {
     margin: 10px;
+}
+.glyphicon-arrow-left{
+    color: #ffffff;
+}
+.glyphicon-bell{
+    color: #006394;
+}
+.container-nav{
+    background-color: black;
+    padding-top: 0!important;
 }
