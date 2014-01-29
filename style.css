@@ -1,0 +1,59 @@
+/* 
+    Document   : style
+    Created on : Jan 29, 2014, 2:44:59 AM
+    Author     : nrat
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.navbar-abc{
+    background: blue;
+    border-radius: 10px 10px 0 0;
+    margin-left: 0;
+}
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F5F5F5;
+}
+
+.navbar {
+    margin-bottom: 20px !important;
+}
+.alert-grey,label{
+    color: #00000;
+    background-color: #ffffff;
+    border-color: #DCDCDC;
+    border-radius: 10px;
+}
+label{
+    overflow-x: hidden;
+}
+.table th, .table td { 
+    border-top: none !important; 
+}
+label{
+    color:#A2A2A2;
+    display: inline-block;
+    margin: 0 2% 0 0;
+    vertical-align: top;
+    width: 40%;
+    font-weight: normal;
+}
+.white .white a{
+    color:#fffff;
+    padding-right: 50px;
+}
+
+
+
+li,ul {
+    list-style: none outside none;
+    padding: 0;
+}
+ul div {
+    margin: 10px;
+}
